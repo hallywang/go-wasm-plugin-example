@@ -1,7 +1,7 @@
 apiVersion: extensions.istio.io/v1alpha1
 kind: WasmPlugin
 metadata:
-  name: httpbin-rate-limiting
+  name: my-go-wasm-plugin
   namespace: default
 spec:
   selector:
