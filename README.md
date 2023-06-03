@@ -346,6 +346,10 @@ kubectl delete wasmplugins my-go-wasm-plugin
 
 - 修改代码重新发布部署后，如果镜像的tag没变化，可能出现不生效，这是因为wasmplugin有自己的缓存机制,tag版本发生变化，不会出现该问题
 
+### 本文代码
+
+https://github.com/hallywang/go-wasm-plugin-example.git
+
 ### 其他玩法
 
 - istio官方提供的使用webassemblyhub来打包发布，内容参考
@@ -361,6 +365,9 @@ https://istio.io/latest/zh/blog/2020/deploy-wasm-declarative/
 ### 参考资料
 
 https://tetrate.io/blog/istio-wasm-extensions-and-ecosystem/
+
+
+
 
 
 
